@@ -239,12 +239,10 @@ Potential improvements:
 - Parametric templates for shafts, housings, gears
 - Automatic retry strategies for sketch/profile creation
 - Unit tests + golden geometry examples
-- CI checks (linting/formatting/schema validation)
 
 ---
 
 ## License
 
-Choose a license for your repo (MIT recommended for broad use).
-
+MIT License -Copyright (c) 2026 Avez Shaikh
 See `LICENSE`.
