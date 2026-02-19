@@ -51,9 +51,9 @@ Typical structure:
 FusionAgenticCAD/
   client/                 # Python CLI client (LLM + tool router)
   fusion_addin/            # Fusion 360 add-in: HTTP bridge + tools
-  mcp_server/              # (optional) future integrations / experiments
+  mcp_server/              # Future integrations 
   Recordings-Example/      # demo recordings, screenshots, examples
-  .env.example             # environment template (NO secrets)
+  .env.example             # environment template
   README.md
   LICENSE
 ```
