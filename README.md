@@ -179,17 +179,42 @@ You should see:
 
 ## Example Prompts
 
-Try these once Fusion is open and the add-in is running:
+Try these once Fusion is open and the add-in is running.
 
-### Flange
-- `Create a flange: disc OD 120 mm, thickness 12 mm; hub OD 70 mm, hub height 20 mm; bore 35 mm.`
-- `Add 6 bolt holes on BCD 90 mm, hole dia 8 mm with countersink dia 14 mm at 82°.`
+---
 
-### Cleanup
-- `Delete everything.`
+### 1) Box (parametric solid)
+**Prompt**
+- `Create a box: length 80 mm, width 50 mm, height 30 mm. Add 4 corner fillets (R=3 mm).` [ you can specify the sketch plane]
 
-### Gear (if enabled in your tool map)
-- `Create spur gear: teeth 24, module 2 mm, pressure angle 20°, thickness 10 mm, bore 10 mm.`
+**Preview**
+[![Box Demo](Recordings-Example/example/Box.gif)](Recordings-Example/example/Box.mp4)
+
+---
+
+### 2) Cylinder (basic revolve / extrude)
+**Prompt**
+- `Create a cylinder: diameter 40 mm, height 60 mm. `
+- Create a circle with radius 40 mm , and extrude 10 mm height. [ you can specify the sketch plane]
+
+**Preview**
+[![Cylinder Demo](Recordings-Example/example/Cylinder.gif)](Recordings-Example/example/Cylinder.mp4)
+
+---
+
+### 3) Flange with bolt pattern + countersinks
+**Prompt**
+- `Create a flange: disc OD 120 mm, thickness 12 mm; hub OD 70 mm, hub height 20 mm; bore 35 mm.` [ you can specify the sketch plane]
+- `Add 6 bolt holes: BCD 90 mm, hole dia 8 mm.`
+
+**Preview**
+[![Flange Demo](Recordings-Example/example/Flangewithholes.gif)](Recordings-Example/example/Flangewithholes.mp4)
+
+---
+
+### 4) Cleanup (reset workspace)
+**Prompt**
+- `Delete everything and reset the design to an empty state.`
 
 ---
 
