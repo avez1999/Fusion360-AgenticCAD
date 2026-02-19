@@ -188,7 +188,7 @@ Try these once Fusion is open and the add-in is running.
 - `Create a box: length 80 mm, width 50 mm, height 30 mm. Add 4 corner fillets (R=3 mm).` [ you can specify the sketch plane]
 
 **Preview**
-[![Box Demo](Recordings-Example/example/Box.gif)](Recordings-Example/Box.mp4)
+[![Box Demo](Recordings-Example/Box.gif)](Recordings-Example/Box.mp4)
 
 ---
 
@@ -198,7 +198,7 @@ Try these once Fusion is open and the add-in is running.
 - Create a circle with radius 40 mm , and extrude 10 mm height. [ you can specify the sketch plane]
 
 **Preview**
-[![Cylinder Demo](Recordings-Example/example/Cylinder.gif)](Recordings-Example/Cylinder.mp4)
+[![Cylinder Demo](Recordings-Example/Cylinder.gif)](Recordings-Example/Cylinder.mp4)
 
 ---
 
@@ -208,7 +208,7 @@ Try these once Fusion is open and the add-in is running.
 - `Add 6 bolt holes: BCD 90 mm, hole dia 8 mm.`
 
 **Preview**
-[![Flange Demo](Recordings-Example/example/Flangewithholes.gif)](Recordings-Example/Flangewithholes.mp4)
+[![Flange Demo](Recordings-Example/Flangewithholes.gif)](Recordings-Example/Flangewithholes.mp4)
 
 ---
 
