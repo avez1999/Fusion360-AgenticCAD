@@ -231,44 +231,6 @@ When you add a new Fusion tool:
 
 ---
 
-## Troubleshooting
-
-### “unauthorized”
-- Your `X-Token` header doesn’t match `AUTH_TOKEN` in the add-in.
-- Fix your `.env` `FUSION_BRIDGE_TOKEN` or update the add-in token.
-
-### “Timeout waiting for Fusion execution”
-- Fusion is busy or the tool takes too long.
-- Try a simpler command, or increase timeout in client `httpx.AsyncClient(timeout=...)`.
-
-### “No active Fusion design”
-- Create/open a Fusion design.
-- The add-in can’t create features without an active design document.
-
-### “Sketch has no profiles to extrude”
-- The sketch isn’t closed or profiles didn’t form.
-- Ensure the lines/arcs form a closed loop.
-
-### Gear generation fails
-Involute gear generation can fail if:
-- the sketch doesn’t form a closed tooth profile
-- pattern/combine fails
-- bore cut can’t find a planar face
-
-Try:
-- create gear without bore first (`bore_mm: 0`)
-- then add the bore as a separate operation
-
----
-
-## Security Notes
-
-- The bridge runs a local HTTP server bound to `127.0.0.1` (loopback only).
-- Requests are protected by a shared token (`X-Token`).
-- Do **not** expose this port to the public internet.
-- Do **not** commit `.env` (secrets) to GitHub.
-
----
 
 ## Roadmap
 
