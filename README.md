@@ -1,4 +1,4 @@
-# FusionAgenticCAD
+# Fusion 360 Agentic CAD and MCP Server
 
 A lightweight **agentic / programmatic CAD** workflow for **Autodesk Fusion 360**:
 - A **Fusion Add-in** exposes a small HTTP “bridge” (tool server) inside Fusion.
