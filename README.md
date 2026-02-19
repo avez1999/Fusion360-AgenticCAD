@@ -2,10 +2,10 @@
 
 Fusion MCP Integration connects AI assistants to Autodesk Fusion 360 via the Model Context Protocol (MCP), enabling:
 
-✨ Conversational CAD — create and edit 3D models using natural language
-🤖 AI-driven automation — automate repetitive modeling steps and workflows
-🔧 Parametric control — update dimensions, features, and patterns through parameters
-🎓 More accessible CAD — reduce the learning curve for non-CAD users
+-✨ Conversational CAD — create and edit 3D models using natural language
+-🤖 AI-driven automation — automate repetitive modeling steps and workflows
+-🔧 Parametric control — update dimensions, features, and patterns through parameters
+-🎓 More accessible CAD — reduce the learning curve for non-CAD users
 
 A lightweight **agentic / programmatic CAD** workflow for **Autodesk Fusion 360**:
 - A **Fusion Add-in** exposes a small HTTP “bridge” (tool server) inside Fusion.
